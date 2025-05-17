@@ -6,8 +6,8 @@ draft: false
 author: "Jorge"
 categories: ["Blog"]
 tags: ["domótica", "hogar inteligente", "automatización", "Maldonado"]
-featured_image: "/img0"
-image : "/img/posts/casa.webp"
+featured_image: "/img/post/1.png"
+image : "/img/posts/1.png"
 featured: true
 
 ---
@@ -40,5 +40,6 @@ Sí, especialmente si buscás mayor control, seguridad o eficiencia energética.
 ---
 
 **¿Te interesa domotizar tu casa en Maldonado o Punta del Este?**
+
 📞 En Maldonado Jorge Electricidad puede ser lo que estés precisando entonces .
 [![Imagen de domótica](https://res.cloudinary.com/octubree/image/upload/w_400,h_200,c_fit/1.png)](https://www.jorge-electricidad.net/)
