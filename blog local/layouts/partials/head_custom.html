@@ -1,0 +1,87 @@
+<!-- Meta tags para SEO en página de búsqueda -->
+{{ if eq .Layout "search" }}
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="description" content="{{ .Description }}">
+{{ end }}
+
+<!-- Estilos adicionales para la página de búsqueda -->
+<style>
+.search-title {
+  margin-bottom: 1.5rem;
+}
+
+.search-description {
+  margin-bottom: 2rem;
+}
+
+.search-page-form {
+  margin-bottom: 2rem;
+}
+
+.search-result {
+  margin-bottom: 1.5rem;
+}
+
+.search-result-meta {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.search-result-summary {
+  margin-bottom: 1rem;
+}
+
+#search-suggestions, #no-results {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Estilos para el buscador en la barra de navegación */
+.navbar-search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.search-input {
+  padding: 5px 30px 5px 10px;
+  border-radius: 20px;
+  border: 1px solid #dee2e6;
+  background-color: transparent;
+  width: 40px;
+  transition: width 0.3s ease;
+}
+
+.search-input:focus {
+  width: 180px;
+  outline: none;
+  border-color: #adb5bd;
+}
+
+/* Ajuste para modo oscuro */
+.dark-mode .search-input {
+  background-color: #343a40;
+  border-color: #495057;
+  color: #f8f9fa;
+}
+
+.dark-mode .search-icon {
+  color: #adb5bd;
+}
+</style>
